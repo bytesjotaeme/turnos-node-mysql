@@ -1,0 +1,94 @@
+/* Estilización específica para el componente Turnos */
+
+.Turnos-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.Turnos-formContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Turnos-list {
+    margin-top: 20px;
+}
+
+.Turnos-listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #f6f6f6;
+}
+
+.Turnos-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.Turnos-button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.Turnos-button:hover {
+    background-color: #0056b3;
+}
+
+.Turnos-addButton {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.Turnos-addButton:hover {
+    background-color: #0056b3;
+}
+
+.Turnos-input, 
+.Turnos-textarea, 
+.Turnos-button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Turnos-textarea {
+    resize: vertical;
+}
+
+/* Estilos para el Footer */
+
+.Turnos-footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #444;
+}

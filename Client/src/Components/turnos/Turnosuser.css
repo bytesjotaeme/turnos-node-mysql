@@ -1,0 +1,73 @@
+/* Estilos generales */
+.Turnos {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la lista de turnos */
+.turno-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.turno-actions {
+    display: flex;
+    gap: 5px; /* Espacio entre botones */
+}
+
+.turno-actions button {
+    font-size: 0.8em; /* Hacer el texto más pequeño */
+    padding: 5px 10px; /* Reducir el padding */
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.turno-actions button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilos para el formulario de agregar turnos */
+.form-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si hay poco espacio */
+    gap: 10px;       /* Espacio entre elementos */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+}
+
+input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input {
+    flex: 1;        /* Ocupar el espacio disponible */
+    min-width: calc(25% - 10px); /* Minimo tamaño para asegurar espacio entre inputs */
+}
+
+button.agregar-btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button.agregar-btn:hover {
+    background-color: #0056b3;
+}

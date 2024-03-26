@@ -1,0 +1,37 @@
+.EditarTurno {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.EditarTurno h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.EditarTurno input,
+.EditarTurno textarea,
+.EditarTurno button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.EditarTurno button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.EditarTurno button:hover {
+    background-color: #0056b3;
+}
